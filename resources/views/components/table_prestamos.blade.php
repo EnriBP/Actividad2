@@ -1,6 +1,6 @@
 <tr>
-    <td>{{ $prestamo->id_book }}</td>
-    <td>{{ $prestamo->id_user }}</td>
+    <td>{{ $prestamo->libro_id }}</td>
+    <td>{{ $prestamo->user_id }}</td>
     <td>{{ $prestamo->fecha_prestamo }}</td>
     <td>{{ $prestamo->fecha_devolucion }}</td>
     <td>
